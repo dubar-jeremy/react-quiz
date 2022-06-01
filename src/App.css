@@ -1,0 +1,56 @@
+body {
+  background-image: url('./img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  position: fixed;
+  width: 100%;
+}
+
+.selected {
+  background-color: #60bf88;
+  border-color: #60bf88;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #ea8282;
+  border-color: #ea8282;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-author {
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #f2f2f2;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.footer-github-icon {
+  width: 100%;
+  height: auto;
+  max-height: 25px;
+  max-width: 25px;
+}

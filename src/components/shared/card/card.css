@@ -1,0 +1,83 @@
+.card {
+  background: white;
+  border-radius: 2em;
+  width: 50%;
+  position: relative;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-footer {
+  display: flex;
+  width: 80%;
+  margin: 1em;
+  justify-content: flex-end;
+}
+
+.card-title {
+  color: #2f527b;
+  font-size: 24px;
+  margin: 0;
+  padding: 1em;
+  padding-top: 3em;
+  width: 80%;
+}
+
+.quiz-header {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #f2f2f2;
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.quiz-header-title {
+  margin-left: 1.5em;
+}
+
+.card-result {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-results-title {
+  color: #1d355d;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0.5em;
+}
+
+.card-results-count {
+  color: green;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.card-results-p {
+  color: #1d355d;
+  margin: 0;
+}
+
+.card-quiz-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.results-img {
+  margin-bottom: 2em;
+}
