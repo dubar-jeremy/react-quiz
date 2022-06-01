@@ -81,3 +81,11 @@
 .results-img {
   margin-bottom: 2em;
 }
+
+@media screen AND (max-width: 500px) {
+ .card {
+   width: inherit;
+   display: inherit;
+   flex-wrap: inherit;
+ }
+}

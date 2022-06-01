@@ -54,3 +54,17 @@ footer {
   max-height: 25px;
   max-width: 25px;
 }
+
+
+@media screen AND (max-width: 500px) {
+  body {
+    background-repeat: inherit;
+    background-size: inherit;
+  }
+
+  main {
+    align-items: inherit;
+    position: inherit;
+    width: inherit;
+  }
+}
