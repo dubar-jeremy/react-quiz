@@ -4,7 +4,7 @@ const htmlEntities = (str) => {
     .replaceAll('&amp;', '&')
     .replaceAll('&lt;', '<')
     .replaceAll('&gt;', '>')
-    .replaceAll('&#039;', "'")
+    .replaceAll('&#039;', "'");
 };
 
 export default htmlEntities;

@@ -12,7 +12,11 @@ const Footer = () => {
           Dubar Jérémy
         </a>
       </p>
-      <a href='https://github.io' target='_blank' className='footer-link'>
+      <a
+        href='https://github.com/dubar-jeremy/react-quiz'
+        target='_blank'
+        className='footer-link'
+      >
         <img src={githubIcon} className='footer-github-icon' />
       </a>
     </footer>
