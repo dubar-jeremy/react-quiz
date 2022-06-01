@@ -33,6 +33,7 @@ const Home = () => {
 
   return (
     <>
+    <h1>React Quiz</h1>
       {categories && (
         <Card>
           <CardBody>

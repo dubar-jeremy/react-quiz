@@ -13,8 +13,6 @@ const Quiz = () => {
 
   const { data: quiz } = useQuiz(url);
 
-  console.log(quiz);
-
   const { amount } = urlQueries;
 
   useEffect(() => {

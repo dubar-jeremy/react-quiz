@@ -55,6 +55,10 @@ footer {
   max-width: 25px;
 }
 
+h1 {
+ color: #F2F2F2
+}
+
 
 @media screen AND (max-width: 1000px) {
   body {
